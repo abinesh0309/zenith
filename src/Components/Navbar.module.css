@@ -1,0 +1,42 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #0e0000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: sticky;
+}
+
+.navbarList{
+    display: flex;
+    gap: 2rem;
+    color: white;
+    list-style-type: none;
+    font-family: sans-seriflulo-clean-w01-one-bold, sans-serif;
+    font-weight: 700;
+    font-size: larger;
+    flex-wrap: wrap;
+}
+
+
+.navbarList li a:hover{
+    color: red;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.navbarList li:active{
+    color: red;
+}
+
+.navbarList li a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.logoimg{
+    width: 100px;
+    height: 100px;
+  
+}
