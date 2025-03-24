@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     padding: 1rem 2rem;
-    background-color: #0e0000;
+    background-color: #c10101;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     position: sticky;
 }
@@ -14,13 +14,13 @@
     list-style-type: none;
     font-family: sans-seriflulo-clean-w01-one-bold, sans-serif;
     font-weight: 700;
-    font-size: larger;
+    font-size: large;
     flex-wrap: wrap;
 }
 
 
 .navbarList li a:hover{
-    color: red;
+    color: rgba(245, 245, 245, 0.778);
     cursor: pointer;
     transition: 0.5s;
 }
@@ -36,7 +36,7 @@
 
 
 .logoimg{
-    width: 100px;
-    height: 100px;
+    width: 85px;
+    height: 85px;
   
 }
